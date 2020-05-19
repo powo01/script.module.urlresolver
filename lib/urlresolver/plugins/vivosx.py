@@ -31,7 +31,7 @@ def rot47(s):
 class VivosxResolver(UrlResolver):
     name = "vivosx"
     domains = ["vivo.sx"]
-    pattern = '(?://|\.)(vivo\.sx)/([0-9a-zA-Z]+)'
+    pattern = '(?://|\.)(vivo\.sx)/embed/([0-9a-zA-Z]+)'
 
     def __init__(self):
         self.net = common.Net()
